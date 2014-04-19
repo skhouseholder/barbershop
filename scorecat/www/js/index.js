@@ -35,8 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         // document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
-    }
-    // ,
+    },
 
     // function onVolumeDownKeyDown() {
     //     alert("Volume DOWN!!!");
