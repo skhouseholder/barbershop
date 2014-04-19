@@ -32,13 +32,14 @@ var app = {
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
+
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
     },
 
-    function onVolumeDownKeyDown() {
-        //nothing to see here
+    onVolumeDownKeyDown: function() {
+        alert("Hi!")
     },
 
     // Update DOM on a Received Event
