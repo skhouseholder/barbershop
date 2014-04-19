@@ -39,7 +39,10 @@ var app = {
     },
 
     onVolumeDownKeyDown: function() {
-        alert("Hi!");
+
+        var tester = document.getElementById('testo');
+        tester.setAttribute('style', 'background:#999999;');
+        
     },
 
     // Update DOM on a Received Event
