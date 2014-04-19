@@ -34,12 +34,13 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
-    },
+        // document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
+    }
+    // ,
 
-    function onVolumeDownKeyDown() {
-        alert("Volume DOWN!!!");
-    },
+    // function onVolumeDownKeyDown() {
+    //     alert("Volume DOWN!!!");
+    // },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
