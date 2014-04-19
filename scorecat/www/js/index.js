@@ -39,7 +39,7 @@ var app = {
     },
 
     onVolumeDownKeyDown: function() {
-        alert("Hi!")
+        alert("Hi!");
     },
 
     // Update DOM on a Received Event
