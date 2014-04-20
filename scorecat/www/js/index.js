@@ -35,16 +35,16 @@ var app = {
 
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        console.log("Device is ready. Logging is working!");
-        document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
+        // // console.log("Device is ready. Logging is working!");
+        // document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
     },
 
-    onVolumeDownKeyDown: function() {
+    // onVolumeDownKeyDown: function() {
 
-        var tester = document.getElementById('testo');
-        tester.setAttribute('style', 'background:#gray;');
+    //     var tester = document.getElementById('testo');
+    //     tester.setAttribute('style', 'background:#gray;');
         
-    },
+    // },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
