@@ -35,13 +35,14 @@ var app = {
 
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        console.log("Device is ready. Logging is working!");
         document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
     },
 
     onVolumeDownKeyDown: function() {
 
         var tester = document.getElementById('testo');
-        tester.setAttribute('style', 'background:#999999;');
+        tester.setAttribute('style', 'background:#gray;');
         
     },
 
