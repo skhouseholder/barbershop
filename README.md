@@ -1,4 +1,0 @@
-barbershop
-==========
-
-Barbershop scoring app
